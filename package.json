@@ -1,0 +1,14 @@
+{
+  "name": "google-cloud-vision-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Justus Bogner<justus.bogner@iste.uni-stuttgart.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^2.4.2",
+    "dotenv": "^16.0.0"
+  }
+}
