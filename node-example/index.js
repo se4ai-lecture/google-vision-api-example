@@ -16,11 +16,11 @@ async function main() {
 
   // retrieve the results for an image without a cat
   const noCatResult = await client.labelDetection(
-    "./resources/e83db50d29f4073ed1584d05fb1d4e9fe777ead218ac104497f5c978a6ebb3bf_640.jpg"
+    "../resources/e83db50d29f4073ed1584d05fb1d4e9fe777ead218ac104497f5c978a6ebb3bf_640.jpg"
   );
   // retrieve the results for an image with a cat
   const catResult = await client.labelDetection(
-    "./resources/ea36b20f20f0033ed1584d05fb1d4e9fe777ead218ac104497f5c978a7eebdbb_640.jpg"
+    "../resources/ea36b20f20f0033ed1584d05fb1d4e9fe777ead218ac104497f5c978a7eebdbb_640.jpg"
   );
 
   // print out label annotations of the result to identify the necessary attributes

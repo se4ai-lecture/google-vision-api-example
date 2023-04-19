@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "author": "Justus Bogner<justus.bogner@iste.uni-stuttgart.de>",
   "license": "MIT",
