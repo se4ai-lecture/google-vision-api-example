@@ -25,9 +25,9 @@ async function main() {
 
   // iterate over list of image file names
   const fs = require("fs");
-  fs.readdir("./resources", async (err, files) => {
+  fs.readdir("../resources", async (err, files) => {
     // send an API request for each file name
-    const promises = files.map((file) => client.labelDetection(`./resources/${file}`));
+    const promises = files.map((file) => client.labelDetection(`../resources/${file}`));
     // wait until all requests have resolved, then iterate over the results
     Promise.all(promises).then((results) => {
       results.forEach((result, index) => {
