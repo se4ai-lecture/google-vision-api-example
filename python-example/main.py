@@ -13,7 +13,7 @@ if not os.getenv("GOOGLE_APPLICATION_CREDENTIALS") or os.getenv("GOOGLE_APPLICAT
 
 
 def get_cat_label(labels):
-    # iterates through a label annotations array and returns the individual label if a cat is found; returns null if no cat is found
+    # iterates through a label annotations array and returns the individual label if a cat is found; returns None if no cat is found
     cat_label = None
     for label in labels:
         if label.description == "Cat":
